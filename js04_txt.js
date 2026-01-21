@@ -4,18 +4,18 @@
 
       Tuba Farm Equipment
       Variables and functions
-      Author: 
-      Date:   
+      Author: Jacob Hartzell
+      Date:   1/21/2026
 
       Filename: js04.js
  */
 
 
 /* global variables tracking status of each form section */
-acresComplete = true;
+let acresComplete = true;
 let cropsComplete = true;
 let monthsComplete = true;
-et fuelComplete = true;
+let fuelComplete = true;
 
 /* global variables referencing sidebar h2 and p elements */
 let messageHeadElement = document.getElementById("messageHead");
@@ -24,8 +24,8 @@ let messageElement = document.getElementById("message");
 /* global variables referencing fieldset elements */
 let acresFieldset = document.getElementsByTagName("fieldset")[0];
 let cropsFieldset = document.getElementsByTagName("fieldset")[1];
-let monthsFieldset  document.getElementsByTagName("fieldset")[2];
-let fuelFieldset = document.getElementsByTagName("fieldset)[3];
+let monthsFieldset = document.getElementsByTagName("fieldset")[2];
+let fuelFieldset = document.getElementsByTagName("fieldset")[3];
 
 /* global variables referencing text input elements */
 let monthsBox = document.forms[0].months;
@@ -67,7 +67,7 @@ function createEventListeners() {
 
 
 /* verify acres text box entry is a positive number */
-function verifyAcres) {
+function verifyAcres() {
    testFormCompleteness();      
 }
 
