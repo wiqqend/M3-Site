@@ -5,7 +5,7 @@
 
       Tuba Farm Equipment
       Variables and functions
-      Author: Jacob Hartzell
+      Author: Jacob 
       Date:   1/21/2026
 
       Filename: js04.js
